@@ -26,7 +26,7 @@
 
   join() 把数组中的所有元素放入一个字符串
 
-    arrayObject.join(separator)  separator指定使用的分割字符
+    arrayObject.join(separator)  separator指定使用的分割字符（默认是逗号）
 
     var mycars=new Array("Saab","Volvo","BMW")
     console.log(mycars.join());     //输出Saab,Volvo,BMW
